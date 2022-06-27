@@ -1,22 +1,21 @@
 Metis-Project-2-Regression-on-IMDB-TVshows
-
 Project Proposal
 
 Question/Need:
-* We live in golden age of television. We prefer to loose ourself in magic of moving pictures while sitting in cosy sofa instead visiting intimidating movie theaters. TV shows have it all: space for new ways of storytelling, more time to do it and more human, personal way to consume that story - at home.  
-* I decided to explore TV shows industry. To create model that can be utilized to predict how well a TV show will be received by viewers basing on certain factors. Therefore may help TV producers to make key decisions while planning.
+* We live in golden age of television. We prefer to loose ourself in magic of moving pictures while sitting in cosy sofa instead visiting intimidating movie theatres. TV shows have it all: space for new ways of storytelling, more time to do it and more human, personal way to consume that story - at home.  
+* I decided to explore TV shows industry. To create model that can be utilised to predict how well a TV show will be received by viewers basing on certain factors. Therefore may help TV producers to make key decisions while planning.
 * Model may be also interesting for fans waiting for shows to watch, as it may help them to estimate which show should be most anticipated.
 
 Data Description:
 * I would like to web scape data from www.imdb.com as it is one of most popular source of  information about TV shows, also regularly used by myself while choosing shows to watch.
-* I will use IMDB advanced title search to obtain data from TV shows relased in 2019-2021, with at least 1000 votes (to sort out insignificant, smaller productions).  It will give me little over 1300 titles.
+* I will use IMDB advanced title search to obtain data from TV shows released in 2019-2021, with at least 1000 votes (to sort out insignificant, smaller productions).  It will give me little over 1300 titles.
 * I will acquire: IMDB SCORE(target for my predictions), TITLE, NUMBER OF FIRST SEASONS EPISODES(*), RUNTIME(*), GENRE, RELEASE DATE(*), COUNTRY OF ORIGIN, PLOT KEYWORDS, PG(*), CREATOR, NUMBER OF USER REVIEWS(*), MAIN CAST
 
 Tools:
 * SQL, Python, Pandas, Numpy and other Python libraries
 * Beautiful Soup, Requests for scraping
 * statsmodels.api  for modeling
-* Matplotlib and Seaborn for visualization
+* Matplotlib and Seaborn for visualisation
 
 MVP Goal:
 * A linear regression model with one feature to describe IMDB score as a function of one of the features that I have been exploring
