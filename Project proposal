@@ -19,3 +19,7 @@ Tools:
 
 MVP Goal:
 * A linear regression model with one feature to describe IMDB score as a function of one of the features that I have been exploring
+
+notes after review:
+NUMBER OF USER REVIEWS(*) - not relevant for prediction of ranging
+to explore, to add numerical features - number of awards for cast or director
