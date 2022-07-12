@@ -1,80 +1,37 @@
-
- 
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@Krystkowiakk 
-Krystkowiakk
-/
-Metis-Project-1-EDA-on-MTA
-Public
-Pin
- Unwatch 1 
-Fork 0
- Star 0
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
- main 
-Metis-Project-1-EDA-on-MTA/Krystkowiak_Krystian_Project_1_EDA_description.txt
-Go to file
-
-@Krystkowiakk
-Krystkowiakk Add files via upload
-Latest commit 45fabe8 28 days ago
- History
- 1 contributor
-28 lines (21 sloc)  2.04 KB
-Raw Blame
-
- 
-# EXPLORATORY DATA ANALYSIS
-Predicting 10 busiest MTA stations for end of 2022.
+# REGRESSION
+IMDB TV shows user rating prediction
 By: Krystian Krystkowiak
 
 ABSTRACT
-MTA representatives contacted me to help predict and identify 10 stations that could fully show potential of new advertising medium during September - December 2022 period. The goal of this project was to analyse MTA turnstile data in order to help predict 10 station best suited for testing efficiency of new advertising panels. I worked with MTA turnstile data provided at company’s webpage (http://web.mta.info/developers/turnstile.html). Analysing station traffic data from couple periods I created recommendation of 10 stations. I visualised and communicated my results using Matplotlib and Seaborn plots.
+	The goal of this project was to use regression model to predict IMDB TV show user rating and to fond factors that influence it. It can help TV professionals and investors to make key decisions while production planning. Model may be also interesting for fans waiting for shows to watch, as it may help them to estimate which show should be most anticipated. 
+	I worked with data scraped from https://www.imdb.com, combining numerical and categorical features to find results for this problem. After refining a model, I visualised and communicated my results using Matplotlib and Seaborn plots.
 
 DESIGN
-MTA would like to introduce new experimental advertising panels at their stations. First 10 systems will be installed in September 2022, which seems to be perfect timing to reach Christmas buyers. MTA representatives contacted me to help predict and identify 10 stations that could fully show potential of new advertising medium during September - December period.
+1999-now has been announced in medias as new Golden Age of Television. We prefer to loose ourself in magic of moving pictures while sitting in cosy sofa instead visiting intimidating movie theatres. TV shows have it all: space for new ways of storytelling, more time to do it and more human, personal way to consume that story - at home.
+Understanding factors shaping IMDB TV show user rating could help viewers save time and maybe improve quality of TV Shows produced in future.
 
 DATA
-I worked with MTA turnstile data provided at company’s webpage (http://web.mta.info/developers/turnstile.html).
-Data set contains information about entry/exit register values for each MTA turnstile at certain control area in 4 hours intervals. Description of individual unit of analysis can be found under that link:
-http://web.mta.info/developers/resources/nyct/turnstile/ts_Field_Description.txt
-I considered 3 periods: Sept-Dec 2021, to analyse last years traffic. Jan-May 2022, for latest trend. Sept-Dec 2019, as traffic data from before pandemic traffic drop could add more context. 
+The dataset contains 1335 rows with 10 features for each, 6 of which are categorical. 
+* Numerical: s01_episodes, avg_runtime, rel_date.
+* Categorical: genres, MPAA certification, origin, company, creators, stars
+I considered period 2019-2021, to analyse last years shows.
 
 ALGORITHMS
-After importing and cleaning data, I processed it to get daily entrances number per turnstile which was base to get information about traffic at stations in time periods.
+Feature Engineering
+After scraping and cleaning data, I processed to checking features correlations and engineering (converting categorical features or subsets of them to binary dummy variables, searching for interactions).
+Models
+Logistic regression.
+Ridge and Lasso regularisation were used. 
+Model Evaluation and Selection
+The entire dataset was split into 75/25 train vs test.
+* With results 0.096/-0.021 R-squared
 
 TOOLS
-SQL and SQLite for initial exploration
-SQLAlchemy for data import to Pandas
-NumPy and Pandas for data manipulation
-Matplotlib and Seaborn for plotting
+* BeautifulSoup for scraping
+* Numpy and Pandas for data manipulation
+* Scikit-learn and statsmodels for modeling
+* Matplotlib and Seaborn for plotting
+
 
 COMMUNICATION
 5-minute slide presentation
-
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
