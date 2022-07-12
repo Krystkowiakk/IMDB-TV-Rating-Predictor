@@ -1,0 +1,80 @@
+
+ 
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Krystkowiakk 
+Krystkowiakk
+/
+Metis-Project-1-EDA-on-MTA
+Public
+Pin
+ Unwatch 1 
+Fork 0
+ Star 0
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+ main 
+Metis-Project-1-EDA-on-MTA/Krystkowiak_Krystian_Project_1_EDA_description.txt
+Go to file
+
+@Krystkowiakk
+Krystkowiakk Add files via upload
+Latest commit 45fabe8 28 days ago
+ History
+ 1 contributor
+28 lines (21 sloc)  2.04 KB
+Raw Blame
+
+ 
+# EXPLORATORY DATA ANALYSIS
+Predicting 10 busiest MTA stations for end of 2022.
+By: Krystian Krystkowiak
+
+ABSTRACT
+MTA representatives contacted me to help predict and identify 10 stations that could fully show potential of new advertising medium during September - December 2022 period. The goal of this project was to analyse MTA turnstile data in order to help predict 10 station best suited for testing efficiency of new advertising panels. I worked with MTA turnstile data provided at company’s webpage (http://web.mta.info/developers/turnstile.html). Analysing station traffic data from couple periods I created recommendation of 10 stations. I visualised and communicated my results using Matplotlib and Seaborn plots.
+
+DESIGN
+MTA would like to introduce new experimental advertising panels at their stations. First 10 systems will be installed in September 2022, which seems to be perfect timing to reach Christmas buyers. MTA representatives contacted me to help predict and identify 10 stations that could fully show potential of new advertising medium during September - December period.
+
+DATA
+I worked with MTA turnstile data provided at company’s webpage (http://web.mta.info/developers/turnstile.html).
+Data set contains information about entry/exit register values for each MTA turnstile at certain control area in 4 hours intervals. Description of individual unit of analysis can be found under that link:
+http://web.mta.info/developers/resources/nyct/turnstile/ts_Field_Description.txt
+I considered 3 periods: Sept-Dec 2021, to analyse last years traffic. Jan-May 2022, for latest trend. Sept-Dec 2019, as traffic data from before pandemic traffic drop could add more context. 
+
+ALGORITHMS
+After importing and cleaning data, I processed it to get daily entrances number per turnstile which was base to get information about traffic at stations in time periods.
+
+TOOLS
+SQL and SQLite for initial exploration
+SQLAlchemy for data import to Pandas
+NumPy and Pandas for data manipulation
+Matplotlib and Seaborn for plotting
+
+COMMUNICATION
+5-minute slide presentation
+
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
