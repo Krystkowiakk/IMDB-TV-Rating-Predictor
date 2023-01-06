@@ -1,6 +1,6 @@
 # IMDB TV Rating Predictor
 ###### METIS Data Science and Machine Learning Bootcamp 2022 by Krystian Krystkowiak
-###### project/month(2/7) focus: EXPLORATORY DATA ANALYSIS
+###### project/month(2/7) focus: REGRESSION
 #### Project code [GitHub](https://github.com/Krystkowiakk/Metis-Project-1-EDA-on-MTA/blob/372cfd21b3e998a53f0f57ddaba1de06e52a37d3/METIS_Krystkowiak_Krystian_Project_1_EDA.ipynb)
 #### Presentation [GitHub](https://github.com/Krystkowiakk/Metis-Project-1-EDA-on-MTA/blob/372cfd21b3e998a53f0f57ddaba1de06e52a37d3/Project%20Presentation/METIS_Krystkowiak_Krystian_Project_1_EDA.pdf)
 
