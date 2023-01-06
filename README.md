@@ -40,10 +40,10 @@ ALGORITHMS
 
 TOOLS
 
-- SQL and SQLite were used for initial data exploration
-- SQLAlchemy was used to import the data into Pandas
-- NumPy and Pandas were used for data manipulation
-- Matplotlib and Seaborn were used for visualization and creating plots for the presentation
+- BeautifulSoup for scraping data from IMDB
+- Numpy and Pandas for data manipulation and preparation
+- Scikit-learn and statsmodels for modeling and evaluating performance
+- Matplotlib and Seaborn for visualizing and communicating the results of the analysis
 
 COMMUNICATION
 
