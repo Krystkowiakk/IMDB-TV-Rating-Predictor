@@ -9,7 +9,7 @@ ABSTRACT
 - Scraped data, used linear regression, lasso, and ridge regularisation to predict the  IMDB TV show ratings.
 - The goal of this project was to use linear regression model to predict IMDB TV show user ratings and identify the factors that influence them. These insights can be useful for TV professionals and investors in making production planning decisions. The model can also be of interest to fans waiting for new shows, as it can help them estimate which shows are most likely to be highly rated.
 
-To achieve this goal, I scraped data from https://www.imdb.com and combined numerical and categorical features in my analysis. I used Matplotlib and Seaborn to visualize and communicate my results after refining the model.
+To achieve this goal, I scraped data from https://www.imdb.com and combined numerical and categorical features in my analysis to create a linear regression model. It seemed that the relationships between the input features and the target variable may not be strong enough to make reliable predictions. Despite this, we were able to identify features that could potentially be more important. I used Matplotlib and Seaborn to visualize and communicate my results.
 
 DESIGN
 
