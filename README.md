@@ -50,6 +50,6 @@ COMMUNICATION
 5-minute slide presentation.
 The presentation was designed to clearly convey significant factors that influenced IMDB ratings and recommendations.
 
-![IMDB TV Rating Predictor](files/cover.png)
+![IMDB TV Rating Predictor](files/cover.jpg)
 
 
