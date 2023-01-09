@@ -1,8 +1,10 @@
 # IMDB TV Rating Predictor
 ###### METIS Data Science and Machine Learning Bootcamp 2022 by Krystian Krystkowiak
 ###### project/month(2/7) focus: REGRESSION
-#### Code [GitHub](https://github.com/Krystkowiakk/IMDB-TV-Rating-Predictor/blob/5422d62a64b494f983c7986086317f6b48103f2b/METIS_Krystkowiak_Krystian_Project_2_Regression%20-%20scraping.ipynb)
-#### Presentation [GitHub](https://github.com/Krystkowiakk/Metis-Project-1-EDA-on-MTA/blob/372cfd21b3e998a53f0f57ddaba1de06e52a37d3/Project%20Presentation/METIS_Krystkowiak_Krystian_Project_1_EDA.pdf)
+#### Code - scraping [GitHub](https://github.com/Krystkowiakk/IMDB-TV-Rating-Predictor/blob/06f183158df96d5fe78f44f189b8cda11be0efdf/1.%20METIS_Krystkowiak_Krystian_Project_2_Regression%20-%20scraping.ipynb)
+#### Code - cleanning&preprocessing [GitHub](https://github.com/Krystkowiakk/IMDB-TV-Rating-Predictor/blob/06f183158df96d5fe78f44f189b8cda11be0efdf/2.%20METIS_Krystkowiak_Krystian_Project_2_Regression%20-%20cleanning&preprocessing.ipynb)
+#### Code - eda&regression [GitHub](https://github.com/Krystkowiakk/IMDB-TV-Rating-Predictor/blob/06f183158df96d5fe78f44f189b8cda11be0efdf/3.%20METIS_Krystkowiak_Krystian_Project_2_Regression%20-%20eda&regression.ipynb)
+#### Presentation [GitHub](https://github.com/Krystkowiakk/IMDB-TV-Rating-Predictor/blob/d56ce8b9852977e89753019bfabe3609ee57a8fe/Project%20Presentation/Krystkowiak_Krystian_Project_2_Regression_on_IMDB_TV.pdf)
 
 ABSTRACT
 
@@ -13,11 +15,11 @@ To achieve this goal, I scraped data from https://www.imdb.com and combined nume
 
 DESIGN
 
-- Scrape data from IMDB website for TV shows released from 1999 to now (2022)
+- Scrape data from IMDB website for TV shows released from 2000 to now (2022)
 - Clean and process the data for use of linear regression model to predict IMDB ratings and identify factors influencing
 - Visualize and communicate the results using Matplotlib and Seaborn plots
 
-1999-present has been hailed as a new Golden Age of Television. Many people prefer to immerse themselves in the magic of moving pictures from the comfort of their own homes rather than visiting intimidating movie theaters.
+2000-present has been hailed as a new Golden Age of Television. Many people prefer to immerse themselves in the magic of moving pictures from the comfort of their own homes rather than visiting intimidating movie theaters.
 
 Understanding the factors that shape IMDB TV show user ratings could help viewers save time and potentially improve the quality of TV shows produced in the future.
 
