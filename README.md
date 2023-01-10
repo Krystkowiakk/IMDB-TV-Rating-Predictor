@@ -4,7 +4,7 @@
 #### Code - scraping [GitHub](https://github.com/Krystkowiakk/IMDB-TV-Rating-Predictor/blob/06f183158df96d5fe78f44f189b8cda11be0efdf/1.%20METIS_Krystkowiak_Krystian_Project_2_Regression%20-%20scraping.ipynb)
 #### Code - cleanning&preprocessing [GitHub](https://github.com/Krystkowiakk/IMDB-TV-Rating-Predictor/blob/06f183158df96d5fe78f44f189b8cda11be0efdf/2.%20METIS_Krystkowiak_Krystian_Project_2_Regression%20-%20cleanning&preprocessing.ipynb)
 #### Code - eda&regression [GitHub](https://github.com/Krystkowiakk/IMDB-TV-Rating-Predictor/blob/06f183158df96d5fe78f44f189b8cda11be0efdf/3.%20METIS_Krystkowiak_Krystian_Project_2_Regression%20-%20eda&regression.ipynb)
-#### Presentation [GitHub](https://github.com/Krystkowiakk/IMDB-TV-Rating-Predictor/blob/d56ce8b9852977e89753019bfabe3609ee57a8fe/Project%20Presentation/Krystkowiak_Krystian_Project_2_Regression_on_IMDB_TV.pdf)
+#### Presentation [GitHub](https://github.com/Krystkowiakk/IMDB-TV-Rating-Predictor/blob/72ef954c90fff0f1ec5b64aaf42d63157105691d/Project%20Presentation/Krystkowiak_Krystian_Project_2_Regression_on_IMDB_TV.pdf)
 
 ABSTRACT
 
