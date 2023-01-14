@@ -2,7 +2,7 @@
 ###### METIS Data Science and Machine Learning Bootcamp 2022 by Krystian Krystkowiak
 ###### project/month(2/7) focus: REGRESSION
 #### Code - scraping [GitHub](https://github.com/Krystkowiakk/IMDB-TV-Rating-Predictor/blob/60bfd533768c127be9c4e1829276ba51c021bad6/1.%20METIS_Krystkowiak_Krystian_Project_2_Regression%20-%20scraping.ipynb)
-#### Code - cleaning&preprocessing [GitHub](https://github.com/Krystkowiakk/IMDB-TV-Rating-Predictor/blob/06f183158df96d5fe78f44f189b8cda11be0efdf/2.%20METIS_Krystkowiak_Krystian_Project_2_Regression%20-%20cleanning&preprocessing.ipynb)
+#### Code - cleaning&preprocessing [GitHub](https://github.com/Krystkowiakk/IMDB-TV-Rating-Predictor/blob/main/2.%20METIS_Krystkowiak_Krystian_Project_2_Regression%20-%20cleaning&preprocessing.ipynb)
 #### Code - eda&regression [GitHub](https://github.com/Krystkowiakk/IMDB-TV-Rating-Predictor/blob/06f183158df96d5fe78f44f189b8cda11be0efdf/3.%20METIS_Krystkowiak_Krystian_Project_2_Regression%20-%20eda&regression.ipynb)
 #### Presentation [GitHub](https://github.com/Krystkowiakk/IMDB-TV-Rating-Predictor/blob/72ef954c90fff0f1ec5b64aaf42d63157105691d/Project%20Presentation/Krystkowiak_Krystian_Project_2_Regression_on_IMDB_TV.pdf)
 
